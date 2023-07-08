@@ -3,6 +3,7 @@ import pickle
 import sklearn
 import pandas as pd
 import numpy as np
+import XGBRegressor 
 
 # import the model
 pipe = pickle.load(open('pipe.pkl', 'rb'))
